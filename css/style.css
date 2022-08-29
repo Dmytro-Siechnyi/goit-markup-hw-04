@@ -434,6 +434,10 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.socials-item:hover,
+.socials-item:focus {
+color: var(--accent-color);
+}
 
 /* Footer */
 .page-footer {
