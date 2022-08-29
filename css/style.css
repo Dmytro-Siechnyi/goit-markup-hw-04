@@ -29,6 +29,7 @@
     --background-color-header: #ffffff;
     --booton-activ-color: #188CE8;
     --background-color-footer: #2F303A;
+    --background-color-hero: #C4C4C4;
     /* рамка */
     --color-border-projects: #eeeeee;
     /* формули */
@@ -216,22 +217,34 @@ color: var(--accent-color);
 
 /* Блок герой */
 .hero {
+text-align: center;
+}
+
+.hero-container {
 padding-top: 200px;
 padding-bottom: 200px;
 
-background-color: var(--background-color-footer);
-text-align: center;
+background-color: var(--background-color-hero);
+width: 1600px;
+height: 600px;
+background-image: linear-gradient(to right, 
+rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+url('../images/hero.jpg');
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 }
-.hero-title {
-    margin-bottom: 30px;
 
-    color: var(--button-text-color);
+.hero-title {
+margin-bottom: 30px;
+
+color: var(--button-text-color);
     
-    letter-spacing: 0.06em;
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-transform: uppercase;
+letter-spacing: 0.06em;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-transform: uppercase;
 }
 .hero-button {
 display: inline-block;
@@ -280,6 +293,33 @@ gap: 30px;
 
 .features-list {
 flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+
+.features-list::before {
+content: "";
+height: 120px;
+display: block;
+margin-bottom: 30px;
+background-repeat: no-repeat;
+background-position: center;
+background-size: auto;
+background-color: var(--secondary-background-color-pag);
+}
+
+.icon-antenna::before {
+    background-image: url('../images/antenna.svg');
+}
+
+.icon-clock::before {
+    background-image: url('../images/clock.svg');
+}
+
+.icon-vector::before {
+background-image: url('../images/vector.svg');
+}
+
+.icon-astronaut::before {
+background-image: url('../images/astronaut.svg');
 }
 
 .features-title {
@@ -360,6 +400,11 @@ padding-top: 30px;
 padding-bottom: 30px;
 }
 
+.socials-item {
+margin-left: auto;
+margin-right: auto;
+}
+
 .team-name {
 margin-bottom: 10px;
 
@@ -372,6 +417,7 @@ line-height: 1.19;
 text-align: center;
 }
 .team-text {
+margin-bottom: 16px;
 color: var(--primary-text-color);
 
 letter-spacing: 0.03em;
@@ -379,6 +425,16 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 }
+
+.network-list {
+display: flex;
+align-items: center;
+gap: 10px;
+margin-left: auto;
+margin-right: auto;
+}
+
+
 /* Footer */
 .page-footer {
     padding-top: 60px;
