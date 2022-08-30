@@ -308,18 +308,22 @@ background-color: var(--secondary-background-color-pag);
 
 .icon-antenna::before {
     background-image: url('../images/antenna.svg');
+    border-radius: 4px;
 }
 
 .icon-clock::before {
     background-image: url('../images/clock.svg');
+    border-radius: 4px;
 }
 
 .icon-vector::before {
 background-image: url('../images/vector.svg');
+border-radius: 4px;
 }
 
 .icon-astronaut::before {
 background-image: url('../images/astronaut.svg');
+border-radius: 4px;
 }
 
 .features-title {
