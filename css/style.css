@@ -152,6 +152,7 @@ margin-right: auto;
 .site-nav .nav-link:focus {
 color: var(--accent-color);
 }
+
 .link-current {
     display: block;
     padding-top: 32px;
@@ -266,9 +267,9 @@ line-height: 1.88;
 
 .hero-button:hover,
 .hero-button:focus {
-    background-color: var(--booton-activ-color);
-    cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+background-color: var(--booton-activ-color);
+cursor: pointer;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     
 }
 /* Особливості */
