@@ -156,7 +156,7 @@ color: var(--accent-color);
 .link-current {
     display: block;
     padding-top: 32px;
-    padding-bottom: 32px;
+    /* padding-bottom: 32px; */
 
     color: currentColor;
     color: var(--accent-color);
@@ -168,7 +168,7 @@ color: var(--accent-color);
     text-decoration: none;
 }
 
-/* .link-current:after {
+.link-current:after {
     content: "";
     display: block;
     min-width: 48px;
@@ -177,7 +177,7 @@ color: var(--accent-color);
     background-color: var(--accent-color);
     margin-top: 28px;
     background-position: bottom;
-} */
+}
 
 /* Авторизація */
 .auth-nav {
