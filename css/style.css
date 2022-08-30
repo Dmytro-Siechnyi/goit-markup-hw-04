@@ -92,7 +92,7 @@ align-items: center;
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    width: 1200px;
+    max-width: 1200px;
 }
 
 /* Логотип header*/
@@ -225,7 +225,7 @@ padding-top: 200px;
 padding-bottom: 200px;
 
 background-color: var(--background-color-hero);
-width: 1600px;
+max-width: 1600px;
 height: 600px;
 background-image: linear-gradient(to right, 
 rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
