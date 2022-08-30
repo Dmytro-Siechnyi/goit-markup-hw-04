@@ -443,6 +443,43 @@ margin-right: auto;
 color: var(--accent-color);
 }
 
+/* Постійні клієнти */
+
+.clients-title {
+margin-bottom: 50px;
+
+color: var(--title-text-color);
+
+letter-spacing: 0.03em;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+}
+
+.clients {
+--items: 6;
+display: flex;
+flex-wrap: wrap;
+gap: 30px;
+}
+
+.clients-list {
+flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
+}
+
+.clients-list::before {
+content: "";
+height: 92px;
+display: block;
+background-repeat: no-repeat;
+background-position: center;
+background-size: auto;
+background-color: var(--background-color-page);
+border: 1px solid rgba(175, 177, 184, 1);
+border-radius: 4px;
+}
+
 /* Footer */
 .page-footer {
     padding-top: 60px;
