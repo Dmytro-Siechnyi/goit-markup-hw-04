@@ -202,10 +202,21 @@ font-size: 14px;
 line-height: 1.14;
 text-decoration: none;
 }
+
+.mail-icon {
+fill: currentColor;
+}
+
+.tel-icon {
+fill: currentColor;
+}
+
 .auth-link-mail:hover,
 .auth-link-mail:focus {
 color: var(--accent-color);
+fill: var(--accent-color);
 }
+
 .auth-link-tel {
     display: block;
     padding-top: 32px;
@@ -222,7 +233,8 @@ color: var(--accent-color);
 }
 .auth-link-tel:hover,
 .auth-link-tel:focus {
-    color: var(--accent-color);
+color: var(--accent-color);
+fill: var(--accent-color);
 }
 
 /* Main */
