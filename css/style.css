@@ -125,13 +125,13 @@ align-items: center;
 
 /* Site nav */
 .header-nav {
-display: flex;
 margin-right: auto;
 }
 
 .site-nav {
     display: flex;
     gap: 50px;
+    margin-right: auto;
 }
 
 .nav-link {
@@ -180,20 +180,19 @@ color: var(--accent-color);
 }
 
 /* Авторизація */
+.box-nav {
+}
+
 .auth-nav {
 display: flex;
 }
 
-.link-mail {
-margin-right: 50px;
-}
-
 .auth-link-mail {
 display: block;
+margin-right: 50px;
 padding-top: 32px;
 padding-bottom: 32px;
 
-color: currentColor;
 color: var(--primary-text-color);
 
 letter-spacing: 0.02em;
