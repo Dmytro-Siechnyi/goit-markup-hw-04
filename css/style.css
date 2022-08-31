@@ -185,7 +185,25 @@ display: flex;
 }
 
 .link-mail {
+display: flex;
+align-items: center;
 margin-right: 50px;
+}
+
+.link-mail:before {
+content: "";
+display: block;
+background-repeat: no-repeat;
+background-position: center;
+background-size: auto;
+background-image: url("../images/svg/icons.svg");
+}
+
+.mail-icon {
+width: 16px;
+height: 12px;
+margin-right: 10px;
+fill: #188CE8;
 }
 
 .auth-link-mail {
@@ -338,7 +356,7 @@ background-image: url('../images/features/astronaut.svg');
 border-radius: 4px;
 } */
 
-.box-icon {
+.box-icon-features {
 background: var(--secondary-background-color-pag);
 border-radius: 4px;
 height: 120px;
