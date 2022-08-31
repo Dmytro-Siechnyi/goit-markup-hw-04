@@ -325,7 +325,7 @@ gap: 30px;
 flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
-.features-list::before {
+/* .features-list::before {
 content: "";
 height: 120px;
 display: block;
@@ -355,18 +355,18 @@ background-image: url('../images/svg/diagram1.svg');
 .icon-astronaut::before {
 content: "";
 background-image: url('../images/svg/astronaut.svg');
-}
+} */
 
-/* .box-icon-features {
+.box-icon-features {
 background: var(--secondary-background-color-pag);
 border-radius: 4px;
 height: 120px;
 margin-bottom: 30px;
-} */
+}
 
-/* .features-icon {
+.features-icon {
 margin: 25px 100px;
-} */
+}
 
 .features-title {
 margin-bottom: 10px;
