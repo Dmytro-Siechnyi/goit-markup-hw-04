@@ -307,7 +307,7 @@ gap: 30px;
 flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
-.features-list::before {
+/* .features-list::before {
 content: "";
 height: 120px;
 display: block;
@@ -316,10 +316,10 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: auto;
 background-color: var(--secondary-background-color-pag);
-}
+} */
 
-.icon-antenna::before {
-    background-image: url('../images/features/antenna.svg');
+/* .icon-antenna::before {
+    background-image: url('../images/svg/icons.svg');
     border-radius: 4px;
 }
 
@@ -336,6 +336,17 @@ border-radius: 4px;
 .icon-astronaut::before {
 background-image: url('../images/features/astronaut.svg');
 border-radius: 4px;
+} */
+
+.box-icon {
+background: var(--secondary-background-color-pag);
+border-radius: 4px;
+height: 120px;
+margin-bottom: 30px;
+}
+
+.features-icon {
+margin: 25px 100px;
 }
 
 .features-title {
