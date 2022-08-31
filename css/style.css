@@ -180,9 +180,6 @@ color: var(--accent-color);
 }
 
 /* Авторизація */
-.box-nav {
-}
-
 .auth-nav {
 display: flex;
 }
