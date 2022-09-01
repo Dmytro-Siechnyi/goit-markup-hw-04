@@ -474,14 +474,17 @@ border: none;
 width: 44px;
 height: 44px;
 border-radius: 50%;
+border-radius: 50%;
 }
 
-.socials-link:hover {
-color: var(--accent-color);
+.socials-link:hover,
+.socials-link:focus {
+background-color: var(--accent-color);
 }
 
-.socials-link:hover {
-fill: var(--background-color-footer);
+.socials-icon:hover,
+.socials-icon:focus {
+fill: var(--button-text-color);
 }
 
 .socials-icon  {
