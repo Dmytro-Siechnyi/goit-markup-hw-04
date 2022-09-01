@@ -22,7 +22,8 @@
     --button-text-color: #ffffff;
     --footer-text-color: #ffffff;
     --accent-color-text-footer: rgba(255, 255, 255, 0.6);
-     /* фон */
+    --color-icon: #AFB1B8;
+    /* фон */
     --accent-color: #2196F3;
     --background-color-page: #F5F5F5;
     --secondary-background-color-pag: #F5F4FA;
@@ -432,13 +433,10 @@ border-radius: 0px 0px 4px 4px;
 }
 
 .box-name {
+width: 270px;
 padding-top: 30px;
 padding-bottom: 30px;
-}
-
-.socials-item {
-margin-left: auto;
-margin-right: auto;
+text-align: center;
 }
 
 .team-name {
@@ -450,7 +448,6 @@ letter-spacing: 0.03em;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
-text-align: center;
 }
 .team-text {
 margin-bottom: 16px;
@@ -459,20 +456,37 @@ color: var(--primary-text-color);
 letter-spacing: 0.03em;
 font-size: 16px;
 line-height: 1.19;
-text-align: center;
 }
 
 .network-list {
 display: flex;
-align-items: center;
+justify-content: center;
 gap: 10px;
-margin-left: auto;
-margin-right: auto;
+padding: 0;
+margin: 0;
+list-style: none;
 }
 
-.socials-link:hover,
-.socials-link:focus {
+.socials-link {
+display: block;
+padding: 0;
+border: none;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+}
+
+.socials-link:hover {
 color: var(--accent-color);
+}
+
+.socials-link:hover {
+fill: var(--background-color-footer);
+}
+
+.socials-icon  {
+margin: 12px;
+fill: var(--color-icon);
 }
 
 /* Постійні клієнти */
