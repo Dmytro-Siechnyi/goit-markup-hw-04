@@ -559,10 +559,6 @@ border-radius: 4px;
     text-decoration: none;
 }
 /* Адреса Footer */
-.box-address {
-margin-top: 20px;
-}
-
 .address {
     letter-spacing: 0.03em;
     font-family: Roboto, sans-serif;
@@ -618,6 +614,40 @@ margin-bottom: 9px;
 .footer-link-address:hover,
 .footer-link-address:focus {
     color: var(--accent-color);
+}
+
+.box-footer {
+display: flex;
+}
+
+.box-footer-icon {
+margin-left: 70px;
+margin-top: 12px;
+}
+
+.footer-title {
+margin-bottom: 20px;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--button-text-color);
+}
+
+.socials-link-footer {
+display: block;
+border: none;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+background-color: rgba(255, 255, 255, 0.1);
+color: var(--button-text-color);
+}
+
+.socials-link-footer:hover,
+.socials-link-footer:focus {
+background-color: var(--accent-color);
 }
 
 /* ---------ПОРТФОЛІО--------- */
