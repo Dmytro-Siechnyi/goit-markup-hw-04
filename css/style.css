@@ -522,8 +522,22 @@ gap: 30px;
 flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .clients-link {
-display: block;
+display: flex;
+align-items: center;
+justify-content: center;
+
 height: 92px;
 width: 170px;
 background-color: var(--background-color-page);
@@ -534,17 +548,12 @@ color: var(--color-icon);
 
 .clients-icon {
 fill: currentColor;
-padding: 16px 32px;
 }
 
 .clients-link:hover,
 .clients-link:focus {
+color: var(--accent-color);
 border: 1px solid var(--accent-color);
-}
-
-.clients-icon:hover,
-.clients-icon:hover {
-fill: var(--accent-color);
 }
 
 /* Footer */
