@@ -654,14 +654,27 @@ text-transform: uppercase;
 color: var(--button-text-color);
 }
 
+.network-list {
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+
 .socials-link-footer {
-display: block;
-border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+
 width: 44px;
 height: 44px;
-border-radius: 50%;
+
 background-color: rgba(255, 255, 255, 0.1);
 color: var(--button-text-color);
+border-radius: 50%;
+}
+
+.socials-icon {
+fill: currentColor;
 }
 
 .socials-link-footer:hover,
