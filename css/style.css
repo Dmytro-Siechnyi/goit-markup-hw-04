@@ -196,6 +196,7 @@ text-decoration: none;
 
 .mail-icon {
 width: 16px;
+fill: none;
 stroke: currentColor;
 }
 
@@ -219,6 +220,7 @@ text-decoration: none;
 
 .tel-icon {
 width: 10px;
+fill: none;
 stroke: currentColor;
 }
 
