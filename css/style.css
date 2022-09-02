@@ -516,6 +516,8 @@ gap: 30px;
 flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
+
+
 .clients-list::before {
 content: "";
 height: 92px;
