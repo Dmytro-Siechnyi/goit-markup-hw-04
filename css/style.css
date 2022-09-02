@@ -196,7 +196,7 @@ text-decoration: none;
 .mail-icon {
 margin-right: 10px;
 width: 16px;
-fill: currentColor;
+stroke: currentColor;
 }
 
 .auth-link-tel {
@@ -219,7 +219,7 @@ text-decoration: none;
 .tel-icon {
 margin-right: 10px;
 width: 10px;
-fill: currentColor;
+stroke: currentColor;
 }
 
 .auth-link-mail:hover,
