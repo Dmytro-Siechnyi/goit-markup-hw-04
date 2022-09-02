@@ -155,18 +155,18 @@ color: var(--accent-color);
 }
 
 .link-current {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
 
-    color: currentColor;
-    color: var(--accent-color);
+color: currentColor;
+color: var(--accent-color);
     
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    text-decoration: none;
+letter-spacing: 0.02em;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
 }
 
 /* Авторизація */
@@ -189,11 +189,27 @@ line-height: 1.14;
 text-decoration: none;
 }
 
+.envelope {
+display: inline-block;
+width: 16px;
+height: 12px;
+margin-right: 10px;
+}
+
 .mail-icon {
+width: 16px;
 fill: currentColor;
 }
 
+.smartphone {
+display: inline-block;
+width: 10px;
+height: 16px;
+margin-right: 10px;
+}
+
 .tel-icon {
+width: 10px;
 fill: currentColor;
 }
 
@@ -204,18 +220,18 @@ fill: var(--accent-color);
 }
 
 .auth-link-tel {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+display: block;
+padding-top: 32px;
+padding-bottom: 32px;
 
-    color: currentColor;
-    color: var(--primary-text-color);
+color: currentColor;
+color: var(--primary-text-color);
     
-    letter-spacing: 0.02em;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    text-decoration: none;
+letter-spacing: 0.02em;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+text-decoration: none;
 }
 .auth-link-tel:hover,
 .auth-link-tel:focus {
