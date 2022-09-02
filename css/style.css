@@ -467,33 +467,34 @@ line-height: 1.19;
 display: flex;
 justify-content: center;
 gap: 10px;
-padding: 0;
-margin: 0;
-list-style: none;
 }
 
 .socials-link {
-display: block;
-border: none;
+display: flex;
+align-items: center;
+justify-content: center;
+
 width: 44px;
 height: 44px;
+
+background-color: var(--background-color-header);
 color: var(--color-icon);
 border-radius: 50%;
 }
 
+.socials-icon {
+fill: currentColor;
+}
+
+/* .socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon {
+color: var(--button-text-color);
+} */
+
 .socials-link:hover,
 .socials-link:focus {
+color: var(--button-text-color);
 background-color: var(--accent-color);
-}
-
-.socials-icon:hover,
-.socials-icon:hover {
-fill: var(--button-text-color);
-}
-
-.socials-icon  {
-padding: 12px;
-fill: currentColor;
 }
 
 /* Постійні клієнти */
