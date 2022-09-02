@@ -180,6 +180,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 
+gap: 10px;
 padding-top: 32px;
 padding-bottom: 32px;
 margin-right: 30px;
@@ -194,7 +195,6 @@ text-decoration: none;
 }
 
 .mail-icon {
-margin-right: 10px;
 width: 16px;
 stroke: currentColor;
 }
@@ -204,6 +204,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 
+gap: 10px;
 padding-top: 32px;
 padding-bottom: 32px;
 
@@ -217,7 +218,6 @@ text-decoration: none;
 }
 
 .tel-icon {
-margin-right: 10px;
 width: 10px;
 stroke: currentColor;
 }
