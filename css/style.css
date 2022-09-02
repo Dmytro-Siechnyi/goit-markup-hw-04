@@ -24,7 +24,7 @@
     --accent-color-text-footer: rgba(255, 255, 255, 0.6);
     --color-icon: #AFB1B8;
     /* фон */
-    --accent-color: #2196F3;
+    --accent-color: #2196f3;
     --background-color-page: #F5F5F5;
     --secondary-background-color-pag: #F5F4FA;
     --background-color-header: #ffffff;
@@ -516,18 +516,29 @@ gap: 30px;
 flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
-
-
-.clients-list::before {
-content: "";
-height: 92px;
+.clients-link {
 display: block;
-background-repeat: no-repeat;
-background-position: center;
-background-size: auto;
+height: 92px;
+width: 170px;
 background-color: var(--background-color-page);
 border: 1px solid rgba(175, 177, 184, 1);
 border-radius: 4px;
+color: var(--color-icon);
+}
+
+.clients-icon {
+fill: currentColor;
+padding: 16px 32px;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+border: 1px solid var(--accent-color);
+}
+
+.clients-icon:hover,
+.clients-icon:hover {
+fill: var(--accent-color);
 }
 
 /* Footer */
