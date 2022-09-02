@@ -469,11 +469,10 @@ list-style: none;
 
 .socials-link {
 display: block;
-padding: 0;
 border: none;
 width: 44px;
 height: 44px;
-border-radius: 50%;
+color: var(--color-icon);
 border-radius: 50%;
 }
 
@@ -483,13 +482,13 @@ background-color: var(--accent-color);
 }
 
 .socials-icon:hover,
-.socials-icon:focus {
+.socials-icon:hover {
 fill: var(--button-text-color);
 }
 
 .socials-icon  {
-margin: 12px;
-fill: var(--color-icon);
+padding: 12px;
+fill: currentColor;
 }
 
 /* Постійні клієнти */
