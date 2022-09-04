@@ -196,8 +196,7 @@ text-decoration: none;
 
 .mail-icon {
 width: 16px;
-fill: none;
-stroke: currentColor;
+fill: currentColor;
 }
 
 .auth-link-tel {
@@ -220,8 +219,7 @@ text-decoration: none;
 
 .tel-icon {
 width: 10px;
-fill: none;
-stroke: currentColor;
+fill: currentColor;
 }
 
 .auth-link-mail:hover,
@@ -351,14 +349,14 @@ background-image: url('../images/svg/astronaut.svg');
 } */
 
 .box-icon-features {
+display: flex;
+align-items: center;
+justify-content: center;
+
 background: var(--secondary-background-color-pag);
 border-radius: 4px;
 height: 120px;
 margin-bottom: 30px;
-}
-
-.features-icon {
-margin: 25px 100px;
 }
 
 .features-title {
@@ -521,17 +519,6 @@ gap: 30px;
 flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
 }
 
-
-
-
-
-
-
-
-
-
-
-
 .clients-link {
 display: flex;
 align-items: center;
@@ -539,7 +526,6 @@ justify-content: center;
 
 height: 92px;
 width: 170px;
-background-color: var(--background-color-page);
 border: 1px solid rgba(175, 177, 184, 1);
 border-radius: 4px;
 color: var(--color-icon);
@@ -563,10 +549,14 @@ border: 1px solid var(--accent-color);
     background-color: var(--background-color-footer); 
 }
 /* Логотип Footer */
+.box-logo {
+margin-bottom: 20px;
+}
+
 .footer-logo {
     color: currentColor;
     color: var(--accent-color);
-    
+
     font-family: Raleway, sans-serif;
     letter-spacing: 0.03em;
     font-weight: 700;
@@ -648,8 +638,8 @@ display: flex;
 }
 
 .box-footer-icon {
+align-items: baseline;
 margin-left: 70px;
-margin-top: 12px;
 }
 
 .footer-title {
@@ -744,8 +734,12 @@ flex-basis: calc((100% - var(--indent) * (var(--items) - 1)) / var(--items));
     margin-right: 0;
 }
 
-.projects-list:hover, 
-.projects-list:focus {
+.projects-link {
+display: block;
+}
+
+.projects-link:hover, 
+.projects-link:focus {
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
